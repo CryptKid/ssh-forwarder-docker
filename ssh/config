@@ -1,0 +1,8 @@
+Host forward
+	#Modify this
+	Hostname
+	Port
+	User
+	LocalForward 0.0.0.0:22 127.0.0.1:2022
+	# Keep as is
+	IdentityFile ~/.ssh/key
