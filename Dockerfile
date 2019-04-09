@@ -1,7 +1,7 @@
 FROM ubuntu:rolling
 MAINTAINER cryptkiddie
 RUN apt update
-RUN apt install openssh -y
+RUN apt install openssh-client -y
 RUN useradd -ms /bin/bash tunnel
 RUN mkdir /home/tunnel
 RUN chown -Rv tunnel:tunnel /home/tunnel/
